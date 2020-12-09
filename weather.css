@@ -62,7 +62,7 @@ nav img {
   align-items: center;
   justify-content: center;
 }
-section {
+.details-section {
   /* border: 3px solid yellow; */
   width: 50vw;
   text-align: center;
@@ -114,6 +114,14 @@ section {
 #min-max {
   font-size: 1.8rem;
 }
+
+#feels-like,
+#wind-speed {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 #atmostphere {
   font-size: 1.7rem;
   font-weight: 600;
@@ -146,7 +154,7 @@ footer {
     font-size: 1.2rem;
   }
 
-  section {
+  .details-section {
     width: 80%;
     padding: 8px;
   }
@@ -167,7 +175,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  section {
+ .details-section {
     width: 80%;
     padding: 8px;
   }
@@ -188,7 +196,7 @@ footer {
     font-size: 1.9rem;
   }
 
-  section {
+ .details-section {
     width: 80%;
     padding: 8px;
   }
@@ -209,7 +217,7 @@ footer {
     font-size: 2.3rem;
   }
 
-  section {
+ .details-section {
     width: 65%;
     padding: 8px;
     line-height: 350%;
