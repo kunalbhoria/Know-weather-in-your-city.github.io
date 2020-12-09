@@ -34,6 +34,12 @@ function showWeatherReport(weather){
 
     let atmostphere = document.getElementById('atmostphere');
     atmostphere.innerHTML= `${weather.weather[0].main}`;
+    
+    let feelsLike = document.getElementById('feels-like');
+    feelsLike.innerHTML= `Feels like : ${Math.round(weather.main.feels_like)}&deg;C`;
+
+    let windSpeed = document.getElementById('wind-speed');
+    windSpeed.innerHTML = `Wind speed : ${weather.wind.speed} km/h`;
 
     let date = document.getElementById('date');
     let todaydate = new Date();
